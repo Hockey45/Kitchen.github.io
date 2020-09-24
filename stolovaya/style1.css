@@ -1,0 +1,45 @@
+.wraper{
+	width: 50%;	
+	margin: 0 auto;
+	
+}
+.slider-container{
+	overflow: hidden;
+	background-color: pink;
+	height: 100%;
+}
+.slider-track{
+	background-color: yellow;
+	display: flex;
+	transition: 2s;
+	position: relative;
+	height: 100%;
+}
+.slider-item{
+	height: 100%;
+}
+.slider-item{
+
+	max-height: 500px;
+}
+.slider-buttons{
+	text-align: center;
+	display: flex;
+	
+}
+.btn{
+	border: none;
+	width: 38px;
+	display: flex;
+    align-items: center;
+
+}
+.slider-buttons img{
+	width: 100%;
+}
+.btn-prev{
+	transform: rotate(180deg);
+}
+button:focus{
+	outline: none;
+}

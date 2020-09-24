@@ -1,0 +1,191 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+@font-face {
+	font-family: Myriad Pro;
+	src: url(fonts/DINPro-Medium.ttf);
+}
+@font-face {
+	font-family: DIN Pro;
+	src: url(fonts/DINPro.ttf);
+}
+a:hover{
+	text-decoration: none;
+
+}
+.main{
+	margin-bottom: 100px;
+	margin-top: 45px;
+}
+.text-block{
+	margin: 0 7%;
+	text-align: center;
+}
+.text-block p{
+	color: #08172d;
+	font-family: "Myriad Pro";
+	font-size: 15px;
+	font-weight: 400;
+}
+.text-block h1{
+
+color: #344258;
+font-family: "DIN Pro";
+font-size: 40px;
+font-weight: 400;
+text-transform: uppercase;
+}
+.photo-block img{
+	width:100%;
+	}
+.first{
+	padding: 0;
+}
+.low-text{
+	position: absolute;
+    top: 85%;
+    right: 22%;
+    left: 24%;
+	color: #fff;
+	font-family: "DIN Pro";
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+.main-button{
+	justify-content: center;
+}
+.button{
+	display: block;
+	text-align: center;
+	margin: 70px 0;
+	padding: 1% 7%;
+	text-decoration: none;
+	font-style: none;
+	border: 3px solid #00264c;
+	color: #344258;
+	font-family: "DIN Pro";
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+footer{
+	background-color: #0d1b2b;
+	background-color: #0c1c28;
+}
+.contact{
+	display: flex;
+	justify-content: center;
+	margin: 0 7%;
+	padding: 5% 0;
+}
+.contact a{
+	color: #fff;
+}
+.contact-main{
+	color: #ffffff;
+font-family: "Myriad Pro";
+font-size: 16px;
+font-weight: 400;
+padding-right: 10%;
+}
+.contact-main h2{
+	color: #ffffff;
+	font-family: "DIN Pro";
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 6%;
+	width:55%;
+
+}
+.contact-text p{
+	margin-bottom: 7%;
+}
+.contact-numbers{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 21px;
+	letter-spacing: -0.75px;
+	width: 95%;
+}
+.forms{
+	width: 45%;
+	border: 4px solid #546682;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 7%;
+}
+.text-add{
+	margin-bottom: 0.5%;
+	height: 40px;
+	background-color: #546682;
+	opacity: 0.33;
+	color: #ffffff;
+	font-family: "DIN Pro";
+	font-size: 15px;
+	font-weight: 500;
+	padding: 10px;
+
+}
+input::placeholder{
+	color: #fff;
+}
+
+.forms button{
+	margin-top: 10%;
+    padding: 9px;
+    border: 3px solid #ffffff;
+    width: 64%;
+    color: #fff;
+    text-align: center;
+    background: transparent;
+    margin-left: 18%;
+
+}
+.forms a{
+	color: #4c89c1;
+font-family: "DIN Pro";
+font-size: 14px;
+font-weight: 500;
+text-decoration: underline;
+text-align: center;
+margin-top: 2%
+}
+.number{
+	display: flex;
+	flex-direction: column;
+}
+.social{
+	color: #3d95e3;
+    font-family: "Myriad Pro";
+    font-size: 17px;
+    font-weight: 300;
+    border-left: 1px solid #3d95e3;
+    padding-left: 8%;
+}
+@media (max-width: 992px){
+	.contact{
+		display: flex;
+		flex-direction: column;
+	}
+	.forms{
+		width: 90%;
+		margin: 10% 8%;
+	}
+	.number{
+		font-size: 10px;
+	}
+	.social{
+		font-size: 14px;
+	}
+
+ } 
