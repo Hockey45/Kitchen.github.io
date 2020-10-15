@@ -216,7 +216,7 @@ font-size: 13px;
 line-height: 20px;
 }
 .eror-img{
-	width: 90%;
+	width: 95%;
 }
 .navig{
 	text-align: center;
@@ -360,4 +360,7 @@ button{
 	font-size: 13px;
 	justify-content: space-between;
 	margin-top: 5%;
+}
+.adaptiv{
+	width: 100%;
 }
