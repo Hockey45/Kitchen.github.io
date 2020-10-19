@@ -364,3 +364,39 @@ button{
 .adaptiv{
 	width: 100%;
 }
+@media (max-width: 576px){
+	.main-text__hangry{
+		font-size: 40px;
+	}
+	.logo {
+		width: 60px;
+		position: absolute;
+		top: 40px;
+	}
+	.nav__navigation__pool li {
+		padding: 0 1%;
+	font-size: 13px;
+	}
+	.menu{
+		margin-top: 12px;
+	}
+	.yelow-line{
+		margin: 7% auto;
+	}
+	.image-block1{
+		display: none;
+	}
+	.forms__main__left-block {
+		margin-bottom: 6%;
+	}
+	.lorem{
+		width: 100%;
+	}
+	.delInPhone{
+		display: none;
+	}
+	.header-main {
+		
+		margin-top: 40%;
+	}
+}
