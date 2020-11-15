@@ -1,2 +1,0 @@
-# Kitchen
-Kitchen with slider
