@@ -1,0 +1,368 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(/img/12.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .main-header {
+  display: flex;
+  padding-top: 3%;
+  align-items: center;
+}
+header .main-header .nav {
+  margin-left: 11%;
+  width: 46%;
+  list-style: none;
+}
+header .main-header .nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+}
+header .main-header .nav ul a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+header .main-header .phone {
+  margin-left: 18%;
+}
+header .main-header .phone a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header .main-header .phone p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: right;
+  color: #FFFFFF;
+}
+header .title-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 0;
+  color: #FFFFFF;
+  margin-top: 5%;
+  padding-bottom: 3%;
+}
+
+.sorting {
+  display: flex;
+  margin-top: 10px;
+}
+.sorting select {
+  border: none;
+  margin: 0 2%;
+}
+
+.full-item {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2% 0;
+  width: 380px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #CACACA;
+  color: #000;
+}
+
+.full-item:hover {
+  text-decoration: underline;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards .cards-item {
+  text-align: center;
+  width: 31%;
+  margin-top: 4%;
+  background-color: #F3F3F3;
+  position: relative;
+}
+.cards .cards-item img {
+  width: 100%;
+}
+.cards .cards-item p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 4px;
+}
+.cards .cards-item .sale {
+  width: 70px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.cards .cards-item .like {
+  width: 50px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  opacity: 0.5;
+}
+.cards .cards-item .like:hover {
+  opacity: 1;
+}
+.cards .cards-item .like:active {
+  opacity: 1;
+}
+.cards .cards-item .button-buy {
+  display: block;
+  width: 100%;
+  background-color: #6EBBD3;
+  text-align: center;
+  text-decoration: none;
+  padding: 6% 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.cards .cards-item .button-buy:hover {
+  background-color: #3D9AB7;
+}
+.cards .cards-item .black {
+  background-color: #000;
+}
+.cards .cards-item .cards-item__skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 13px;
+  line-height: 5px;
+  font-weight: 400;
+  margin: 0 7%;
+}
+.cards .cards-item .cards-item__skills .blue-line {
+  width: 4px;
+  height: 26px;
+  background-color: #6EBBD3;
+}
+.cards .cards-item .cards-item__skills .age {
+  text-align: left;
+}
+.cards .cards-item .cards-item__skills .amount {
+  text-align: left;
+}
+.cards .cards-item .cards-item__skills h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0px;
+}
+.cards .cards-item .cards-item__skills p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+footer {
+  background-color: #1F2021;
+}
+footer .first-line {
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+}
+footer .first-line h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 2%;
+}
+footer .first-line input {
+  width: 20%;
+  height: 50px;
+  border: none;
+  margin-left: 10%;
+  margin-left: 27%;
+  border-radius: 10px;
+  padding-left: 6px;
+}
+footer .first-line a {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  background-color: #6EBBD3;
+  margin-left: 3%;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+footer .second-line {
+  display: flex;
+  color: #FFFFFF;
+  padding-bottom: 5%;
+}
+footer .second-line p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  width: 28%;
+  margin: 0;
+  color: #FFFFFF;
+}
+footer .second-line input {
+  margin-left: 28%;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+
+  header .main-header .phone {
+    margin-left: 14%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 800px;
+  }
+
+  header .main-header .phone {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+
+  header .main-header .phone {
+    margin-left: 5%;
+  }
+
+  header .main-header .nav {
+    margin-left: 0%;
+  }
+
+  header .main-header .phone a {
+    font-size: 15px;
+  }
+
+  header .main-header .phone p {
+    font-size: 10px;
+  }
+
+  header .main-header .nav ul a {
+    font-size: 13px;
+  }
+
+  .cards .cards-item .cards-item__skills h4 {
+    font-size: 10px;
+  }
+
+  .cards .cards-item .cards-item__skills p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    width: 360px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .cards .cards-item {
+    width: 100%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  header .main-header .phone {
+    margin-left: 30%;
+  }
+
+  .full-item {
+    width: 70%;
+  }
+
+  footer .first-line h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  footer .first-line {
+    flex-direction: column;
+  }
+
+  footer .first-line input {
+    margin: 0;
+    width: 80%;
+  }
+
+  footer .first-line a {
+    margin: 0;
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  footer .second-line p {
+    font-size: 15px;
+    width: 50%;
+    margin-left: 6%;
+  }
+
+  footer .second-line input {
+    margin-left: 12%;
+  }
+
+  footer .second-line {
+    margin-top: 10px;
+  }
+}
