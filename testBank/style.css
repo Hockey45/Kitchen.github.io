@@ -441,7 +441,10 @@ input[type=range]  {
     }
     .header-promo{
         background: url(header_tel.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         position: relative;
+        background-position-y: -45px;
     }
     .header{
         position: relative;
