@@ -1,0 +1,547 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.container-top{
+    margin: 0 2%;
+}
+button{
+    border: none;
+}
+p{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+.top-header__box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.raif-logo{
+    border-right: 1px solid #E1E1E3;
+    padding-right: 30px;
+}
+.visa-logo{
+    padding-left: 30px;
+}
+.number{
+
+}
+.tel{
+    text-decoration: none;
+    list-style: none;
+    color: #2B2D33;
+    font-size: 18px;
+    font-style: Regular;
+}
+.free{
+    color: #808185;
+    Font-Style: Regular;
+    Font-Size: 12px;
+    margin: 0;
+    text-align: right;
+}
+.header-promo{
+    background: url(header-photo.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.main-text{
+    padding-top: 5%;
+}
+.steaker{
+    background: url(Progress.png);
+    background-repeat: no-repeat;
+    height: 34px;
+    Font-Style: Medium;
+    Font-Size: 16px;
+    display: flex;
+    color: #FFFFFF;
+    width: 236px;
+    
+    
+}
+.align{
+    text-align: right;
+}
+.steaker p{
+    padding: 3px 0px 3px 11px;
+}
+.main-text h1{
+    text-align-last: left;
+    font-style: bold;
+    font-size: 60px;
+    line-height: 76px;
+    color: #fff;
+    width: 500px;
+    margin: 0;
+    margin-top: 2%;
+}
+.prosent{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 108px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: -2%;
+}
+.offer-online{
+    background: #FEE600;
+    border-radius: 10px;
+    width: 213px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border: none;
+    cursor: pointer;    
+
+}
+.offers{
+    text-align: center;
+    margin: 50px 0;
+}
+.numbers{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    
+}
+.words{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+.low-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #808185;
+}
+.container-item{
+    margin: 0 0 0 30px;
+    display: flex;
+    height: 180px;
+    align-items: center;
+    justify-content: space-between;
+}
+.cashback__offer{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.type-cashback{
+    margin-bottom: 5%;
+}
+.rubles{
+    background-color: #29476B;
+    display: flex;
+    height: 180px;
+    border-radius: 14px;
+    position: relative;
+}
+.rubles  p{ 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 169px;
+    margin: auto 0 auto 30px;
+    
+}
+.car{
+    position: absolute;
+    right: 0;
+}
+
+
+.calkulate{
+    background: #F4F4F4;
+    height: 100%;
+    padding-bottom: 80px;
+}
+.calkulate-block{
+    height: 389px;
+    background: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.calkulate-title{
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+}
+.calkulate-title p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #808185;
+}
+.slidecontainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.kalkulate__main{
+    
+}
+.top-slider{
+    width: 100%;
+    padding-top: 55px;
+    
+}
+.bottom-slider{
+    
+    width: 100%;
+}
+.post{
+    font-size: 13px;
+    line-height: 18px;
+    color: #A2A4A6;
+    padding-top: 5%;
+}
+.ask-summ{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B2D33;
+    font-weight: 500;
+}
+.ask-summ span{
+    font-size: 32px;
+line-height: 30px;
+}
+.diapason{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+line-height: 12px;
+color: #A2A4A6;
+}
+.block-offer{
+    padding-left: 12%;
+    border-left: 1px solid black;
+    height: 275px;
+}
+.text-offer{
+
+}
+.text-offer span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+}
+.text-offer p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.kredit-button{
+    background: #FEE600;
+    border-radius: 10px;
+    width: 204px;
+    height: 54px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.kard-online h1{
+    margin: 36px 0;
+}
+.kard-online textarea{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    border: 1px solid #E1E1E3;
+    text-align: center;
+    padding-top: 22%;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+.services-item{
+    display: flex;
+    width: 25%;
+}
+.services-item p{
+    margin-bottom: -15px;
+    margin-left: 10px;
+}
+
+.mobile-slider{
+    background-color: #424548;
+    color: #fff;
+}
+.mobile-slider h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    padding-top: 70px;
+}
+.mobile-slider p{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding-bottom: 70px;
+}
+.kard{
+    padding-bottom: 70px;
+}
+.take-kard{
+    width: 265px;
+    height: 54px;
+    display: block;
+    background: #FEE600;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.discription{
+    border-top: solid 1px #E1E1E3;
+    border-bottom: solid 1px #E1E1E3;
+    margin: 70px 0;
+}
+.discription__text{
+    display: flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.about{
+    font-size: 13px;
+    height: 80px;
+    color: #808185;
+    margin-bottom: 50px;
+    overflow: overlay;
+}
+.tel-button{
+    display: none;
+}
+.icon-mobile{
+    display: none;
+}
+/* slder*/
+
+
+
+
+.sliders{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.slider-items{
+    display: flex;
+    transition: all 1s;
+    min-width: 100%;
+}
+.slider-item{
+    text-align: center;
+}
+.full-display{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+img{
+}
+
+/* range*/
+
+input[type=range]:focus{
+    outline: none;
+}
+input[type=range]  {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background: #E1E1E3;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    border-radius: 10px/100%;
+    height: 7px;
+    background: #FEE600,;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    background: #FEE600;
+    border-radius: 50%;
+    cursor: pointer;
+    width:35px;
+    height: 35px;
+    margin-top: -14px;
+    -webkit-appearance: none;
+  }
+
+
+@media(max-width: 576px){
+    .raif-logo{
+        width: 48%;
+        border-right: 1px solid #E1E1E3;
+        padding-right: 10px;
+    }
+    .visa-logo{
+        width: 29%;
+        padding-left: 0;
+    }
+    .tel{
+        font-size: 10px;
+    }
+    .free {
+        color: #808185;
+        Font-Style: Regular;
+        Font-Size: 8px;
+        margin: 0;
+        text-align: center;
+    }
+    .main-text h1{
+        text-align: left;
+        font-size: 36px;
+        line-height: 42px;
+        color: #fff;
+        margin: 0;
+        margin-top: 2%;
+        width: 100%;
+    }
+    h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .prosent{
+        font-size: 64px;
+        
+    }
+    .header-promo{
+        background: url(header_tel.png);
+        position: relative;
+    }
+    .header{
+        position: relative;
+        height: 73vh;
+    }
+    .offer-online{
+        display: none;
+    }
+    .tel-button{
+        display: block;
+        width: 100%;
+        height: 54px;
+        background: #FEE600;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        color: #2B2D33;
+
+    }
+    .icon-mobile{
+        display: block; 
+    }
+    .number{
+        display: none;
+    }
+    .align{
+        text-align: center;
+    }
+    .calkulate{
+        background: #ffffff;
+    }
+    .calkulate-block{
+        display: block;
+        height: 100%;
+        background: #FFFFFF;
+        width: 100%;
+    }
+    .calkulate-title {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+    }
+    .rubles {
+        background-color: #29476B;
+        display: flex;
+        width: 94%;
+        height: 152px;
+        margin: 7px auto;
+        border-radius: 14px;
+        position: relative;
+    }
+    .rubles p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        color: #FFFFFF;
+        width: 169px;
+        margin: auto 0 auto 30px;
+    }
+    .services {
+        width: 100%;
+        display: block;
+    }
+    .services-item {
+        display: flex;
+        margin: 28px 21px;
+    }
+    .block-offer {
+        padding-left: 0;
+        border: none;
+        height: 100%;
+        padding: 40px;
+        border-radius: 25px;
+        background-color: #F4F4F4;
+        text-align: center;
+    }
+    .services-item {
+        display: flex;
+        width: 100%;
+        margin: 28px 21px;
+    }
+    .discription__text{
+        display: block;
+    }
+    .steaker{
+        background: url(Progress1.png);
+        background-repeat: no-repeat;
+        font-size: 12px;
+        
+    }
+    .steaker p{
+        padding: 7px 0px 0px 7px;
+    }
+    .top-header__box {
+        display: flex;
+        justify-content: space-around;
+    }
+}
