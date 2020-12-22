@@ -19,7 +19,7 @@ const track = document.querySelector('.slider-items');
 const items = document.querySelectorAll('.slider-item');
 const prev = document.querySelector('#button1');
 const next = document.querySelector('#button2')
-const itemWidth = container.clientWidth / slidesToShow
+const itemWidth = 303;
 const itemCount = items.length;
 const movePosition = slidesToScroll * itemWidth;
 
